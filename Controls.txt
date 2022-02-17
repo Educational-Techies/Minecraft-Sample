@@ -1,3 +1,6 @@
+Note:'pip' should be added to path in order to run the game.
+
+
 To run the game open 'game.py'
 To move use 'W,A,S,D' keys
 To jump use the 'Space Bar'
