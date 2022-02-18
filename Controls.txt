@@ -1,4 +1,5 @@
-Note:'pip' should be added to path in order to run the game.
+Note: python should be installed on the computer,and
+     'pip' should be added to path in order to run the game.
 
 
 To run the game open 'game.py'
