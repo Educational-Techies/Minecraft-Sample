@@ -1,6 +1,4 @@
-pip install  ursina
-
-
+pip install ursina
 
 from ursina import *
 
