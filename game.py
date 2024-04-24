@@ -15,13 +15,16 @@ dirt_texture= load_texture('assets/dirt_block.png')
 sky_texture= load_texture('assets/skybox.png') 
 arm_texture= load_texture('assets/arm_texture.png')
 create_destroy_sound= Audio('assets/createanddestroy',loop= False,autoplay=False)
+bg_music= Audio('assets/Minecraft',loop= True,autoplay= True, volume= 0.45)
 block_pick = 1
 
 
 window.title = 'Minecraft Sample'              
 window.borderless = False              
-window.fullscreen = True          
-window.fps_counter.enabled= True
+window.fullscreen = True         
+
+#un comment to see the fps of the game
+# window.fps_counter.enabled= True
 window.exit_button.visible= True
 
 def update():
@@ -94,6 +97,8 @@ for z in range(30):
   for x in range(30):
     for y in range(3):
        voxel = Voxel(position =(x,y,z))
+
+
 def input(key):
     if key == 'left alt down':
       mouse.locked = False
