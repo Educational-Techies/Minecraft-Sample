@@ -25,7 +25,6 @@ window.fullscreen = True
 
 #un comment to see the fps of the game
 # window.fps_counter.enabled= True
-window.exit_button.visible= True
 
 def update():
 	global block_pick
