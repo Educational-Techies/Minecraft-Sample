@@ -3,7 +3,7 @@
 Note: python should be installed on the computer,and
      'pip' should be added to path in order to run the game.
 
-#Playing The game
+# Playing The game
      To run the game open 'game.py'.
      To move use 'W,A,S,D' keys.
      To jump use the 'Space Bar'.
